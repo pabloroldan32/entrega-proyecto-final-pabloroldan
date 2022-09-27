@@ -1,0 +1,6 @@
+1-Coloque etiquetas mata keywords en todos los HTML:
+index: viajes, descanso, montañas, trod world viajes, san jose de jachal, san juan
+info-historia: fotos, historia, fechas, jachal, san juan
+destinos-servicios: pueblos, localidades, parajes, visitar, jachal, san juan
+traslados: servicios, traslados, comodidad, descanso, trod world viajes
+contacto: contacto, preguntas, informacion, datos, comentarios

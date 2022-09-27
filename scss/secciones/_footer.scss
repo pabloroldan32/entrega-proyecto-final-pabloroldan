@@ -1,0 +1,56 @@
+
+//PIE DE PAGINA
+
+//Color del Footer
+.redes {
+	border: 2px solid;
+    width: 100%;
+    .flex-footer{
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-between;
+        .items-footer{
+        	color: #cbe4ea;
+        	font-size: .9rem;
+        	margin: 30px 35px 30px 30px;
+        }
+    }
+    
+//REDES SOCIALES
+    .redSocial {
+    	display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		display: inline-block;
+        ul li{
+            list-style: none;
+        }
+    }
+}
+   
+.redSocial {
+    margin-right: 15%;
+    margin-top: 40px;
+        
+}
+
+
+   //ICONOS MAS INFO
+.iconos {
+	display: flex;
+	justify-content: space-between;
+	visibility: hidden;
+	color: white;
+    ul li{
+            list-style: none;
+        }
+    
+}   
+   
+
+
+
+
+
+
+

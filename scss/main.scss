@@ -1,0 +1,127 @@
+@import"./reset.scss";
+
+@import"./fuentes.scss";
+
+@import"./variables/extend.scss";
+
+@import"./secciones/index-main.scss";
+
+@import"./secciones/footer.scss";
+
+
+
+
+
+//MEDIAQUERYS - MOBILE LAST - INDEX HTML
+
+//FOTOS DE INDEX
+@media(max-width: 749px){
+    .flex-lugares{
+    flex-direction: column;
+    align-content: center;
+    }    	
+
+}
+
+
+// INFO-HISTIRIA
+@media(max-width: 780px){
+.flex-lugaresJachal{
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+		.text-infojachal{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		    margin: 2%;
+		   
+		    .img-infojachal{
+		    	width: 100%;
+		    	
+		    }
+		    .texto{
+		    	flex-direction:column;
+		    	width: 100%;
+		    }
+		}
+	}
+
+	.flex-lugaresJachal{
+	 	.text-infojachal1{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		    margin: 2%;
+		    .img-infojachal{
+		    	width: 100%;
+		    }
+		    .texto{
+		    	flex-direction:column;
+		    	width: 100%;
+		    }
+		}
+	}
+
+}
+
+
+
+//MAPA-RUTA
+@media(max-width: 649px){
+    .mapa-ruta{	
+	flex-direction: column;
+    align-content: space-around;
+    width:100%;
+    }
+    .mapa{
+    	width:100%;
+    }
+    .info-ruta40{
+    	width:100%;
+    }
+}
+
+
+
+//FOOTER
+@media(max-width: 548px){
+    .items-footer{
+    display: none;
+}
+
+    .btn-what{
+  	right: 50px;
+  	margin: 0px 0px -20px 0px;
+  }
+
+    .redSocial {
+	flex-direction: column;
+	margin: 40px 117px 0px 10px;
+}
+
+    .iconos {
+	visibility: visible;
+	flex-direction: column;
+	margin: 40px 0px 0px 10px;
+}
+
+}
+
+
+
+@media(max-width:749px){
+	.flex-lugares{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+        .text-infolugares{
+        	width:100%;
+        }
+}
+}
+
+
+
+
+

@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bevan:ital@1&family=Montserrat+Alternates&family=Nunito:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Open+Sans&family=Quicksand:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif; }
+
+main {
+  background-color: rgba(221, 148, 58, 0.3); }
+
+/*zolapa telefono*/
+.telefono {
+  background-color: rgba(28, 28, 28, 0.9);
+  text-align: center; }
+  .telefono span {
+    color: #cbe4ea; }
+
+.redes {
+  background-color: rgba(28, 28, 28, 0.9); }
+
+h2 {
+  background-color: rgba(135, 135, 251, 0.2);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  border: 2px solid; }
+
+h3 {
+  font-size: 1.5rem; }
+
+header .bg-nav {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.2), rgba(5, 7, 12, 0.2)), url(../img/img-10huaco.jpg);
+  width: 100%;
+  height: 90vh; }
+
+header .logo-img {
+  margin-top: 2%;
+  margin-left: 35%;
+  text-align: center; }
+
+header .bg-colorNav {
+  background-color: rgba(28, 28, 28, 0.9); }
+  header .bg-colorNav a {
+    color: #cbe4ea;
+    font-family: 'Josefin Sans', sans-serif; }
+    header .bg-colorNav a:hover {
+      color: rgba(221, 148, 58, 0.8); }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28203, 223, 234, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+.navbar-toggler {
+  border: 1px solid #cbe4ea; }
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif; }
+
+.info-jachal {
+  width: 100%;
+  border: 1px solid;
+  font-size: large;
+  font-weight: 600;
+  text-align: center; }
+  .info-jachal p {
+    margin: 15px; }
+
+.flex-lugares {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 15px; }
+  .flex-lugares .text-infolugares {
+    background-color: rgba(255, 255, 249, 0.5);
+    display: grid;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    align-items: center;
+    font-size: large; }
+    .flex-lugares .text-infolugares img {
+      border-radius: 5%;
+      widows: 100%;
+      height: auto; }
+
+.text-infolugares img:hover {
+  transform: scale(1.03);
+  transition: transform .5s;
+  cursor: pointer; }
+
+.text-infolugares p {
+  font-size: 18px;
+  font-weight: 300; }
+
+.w-100 {
+  width: 100%; }
+
+.btn-what {
+  background-color: rgba(87, 166, 57, 0.7);
+  border: 1px solid #0a0a0a;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  bottom: 50px;
+  right: 30px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite; }
+
+.btn-what:hover {
+  transform: scale(1.1);
+  transition: 0.3s; }
+
+.container-what {
+  transition: ease 1s; }
+
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85); }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0); } }
+
+.flex-lugaresJachal {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between; }
+
+.text-infojachal {
+  background-color: rgba(255, 255, 249, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 3px solid;
+  margin: 10px;
+  font-size: large; }
+
+.img-infojachal {
+  width: 65%;
+  height: auto;
+  border-radius: 5%; }
+
+.text-infojachal1 {
+  background-color: rgba(255, 255, 249, 0.5);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  border: 3px solid;
+  margin: 10px;
+  font-size: large; }
+
+.img-infojachal {
+  width: 65%;
+  border-radius: 5%; }
+
+.texto {
+  width: 35%;
+  text-align: center; }
+
+.botono {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: rgba(240, 178, 122, 0.5); }
+
+.botono {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+
+.botono:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.botono::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.botono::after {
+  background-color: #fff; }
+
+.botono:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0; }
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 250px; }
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #B0E0E6 solid;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  color: black; }
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: black; }
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none; }
+
+.form-control label span {
+  display: inline-block;
+  font-size: 19px;
+  min-width: 5px;
+  color: rgba(205, 92, 92, 0.6);
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: black;
+  transform: translateY(-30px); }
+
+.subtitulo3 {
+  margin-left: 1%;
+  text-align: center; }
+
+.formulario {
+  border: solid;
+  background-color: rgba(170, 150, 150, 0.5);
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  background: rgba(5, 7, 12, 0.35); }
+  .formulario .boton-form {
+    background-color: rgba(205, 92, 92, 0.5); }
+
+form {
+  margin-left: 15px; }
+
+.mapa-ruta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.mapa {
+  border: 1px solid;
+  width: 48%;
+  overflow: hidden; }
+
+.info-ruta40 {
+  display: flex;
+  background-color: rgba(255, 255, 249, 0.5);
+  border: 1px solid;
+  flex-direction: row;
+  width: 48%;
+  width: 50%; }
+
+.redes {
+  border: 2px solid;
+  width: 100%; }
+  .redes .flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .redes .flex-footer .items-footer {
+      color: #cbe4ea;
+      font-size: .9rem;
+      margin: 30px 35px 30px 30px; }
+  .redes .redSocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: inline-block; }
+    .redes .redSocial ul li {
+      list-style: none; }
+
+.redSocial {
+  margin-right: 15%;
+  margin-top: 40px; }
+
+.iconos {
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+  color: white; }
+  .iconos ul li {
+    list-style: none; }
+
+@media (max-width: 749px) {
+  .flex-lugares {
+    flex-direction: column;
+    align-content: center; } }
+
+@media (max-width: 780px) {
+  .flex-lugaresJachal {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between; }
+    .flex-lugaresJachal .text-infojachal {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 2%; }
+      .flex-lugaresJachal .text-infojachal .img-infojachal {
+        width: 100%; }
+      .flex-lugaresJachal .text-infojachal .texto {
+        flex-direction: column;
+        width: 100%; }
+  .flex-lugaresJachal .text-infojachal1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2%; }
+    .flex-lugaresJachal .text-infojachal1 .img-infojachal {
+      width: 100%; }
+    .flex-lugaresJachal .text-infojachal1 .texto {
+      flex-direction: column;
+      width: 100%; } }
+
+@media (max-width: 649px) {
+  .mapa-ruta {
+    flex-direction: column;
+    align-content: space-around;
+    width: 100%; }
+  .mapa {
+    width: 100%; }
+  .info-ruta40 {
+    width: 100%; } }
+
+@media (max-width: 548px) {
+  .items-footer {
+    display: none; }
+  .btn-what {
+    right: 50px;
+    margin: 0px 0px -20px 0px; }
+  .redSocial {
+    flex-direction: column;
+    margin: 40px 117px 0px 10px; }
+  .iconos {
+    visibility: visible;
+    flex-direction: column;
+    margin: 40px 0px 0px 10px; } }
+
+@media (max-width: 749px) {
+  .flex-lugares {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    .flex-lugares .text-infolugares {
+      width: 100%; } }

@@ -1,0 +1,365 @@
+
+header{ 
+		
+		
+		 //FOTO FONDO DE NAV
+		.bg-nav{
+		    background-image: linear-gradient(rgba(5, 7, 12, 0.20),  rgba(5, 7, 12, 0.20)),
+		    url(../img/img-10huaco.jpg);
+		    width: 100%;
+		    height: 90vh;   
+
+		} 
+
+		//logo central
+		.logo-img{
+			margin-top: 2%;
+			margin-left: 35%;
+			text-align: center;
+		    
+		}
+
+	   //color nav
+		.bg-colorNav{
+			background-color: rgba(28, 28, 28, .9);
+			a{
+			color:#cbe4ea;
+			font-family:'Josefin Sans', sans-serif;
+			&:hover{
+				color:  rgba(221, 148, 58, .8);
+			}
+		}
+	}
+}	
+        
+        //color button hamburguesa
+        .navbar-toggler-icon {
+        	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28203, 223, 234, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+
+        .navbar-toggler {
+        	border: 1px solid #cbe4ea;
+        }
+
+        
+       
+
+	h2{
+		@extend %estiloH2;
+	}
+	h3{
+		@extend %estiloH3;
+		font-family: 'Josefin Sans', sans-serif;	
+	}
+
+	//info JACHAL
+	.info-jachal {
+		width: 100%;
+		border: 1px solid;	
+	    font-size: large;
+	    font-weight: 600;
+	    text-align: center;
+	    p{
+	    	margin: 15px;
+	    }
+	}
+
+	
+
+
+	 //seccion de fotos e info
+	.flex-lugares{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-gap: 15px;	
+        .text-infolugares{
+        	background-color: rgba(255, 259, 249, .5);
+			display: grid;
+			border-top: 3px solid;
+			border-bottom: 3px solid;
+		    align-items: center;
+		    font-size: large; 
+            img{
+            	border-radius: 5%;
+            	widows: 100%;
+            	height: auto;
+
+            }
+		}
+	}
+
+
+
+	.text-infolugares img:hover{
+		transform: scale(1.03);
+	    transition: transform .5s;
+	    cursor: pointer;
+	}	
+
+	.text-infolugares p{
+		font-size: 18px;
+		font-weight: 300;
+
+	}
+
+
+	.w-100{
+		width: 100%;
+	}
+
+
+
+//What
+
+	.btn-what{
+		background-color:rgba(87, 166, 57, .7);
+		border: 1px solid #0a0a0a;
+		position: fixed;
+		width: 50px;
+		height: 50px;
+		line-height: 45px;
+		bottom: 50px;
+		right: 30px;
+		border-radius: 50%;
+		text-align: center;
+		font-size: 30px;
+		box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+	    z-index: 100;
+		transition: ease 0.3s;
+		animation: efecto 1.2s infinite;
+		    
+		    	
+	}
+
+	.btn-what:hover{
+		transform: scale(1.1);
+	    transition: 0.3s;
+    
+    }
+
+	.container-what{
+	       transition: ease 1s;
+	    
+	}
+
+
+    @keyframes efecto{
+	0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, .85);
+	}
+	100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+	}
+
+    } 
+
+
+
+// HTML-INFO-HISTORIA 
+	.flex-lugaresJachal{
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+	}
+		.text-infojachal{
+			background-color: rgba(255, 259, 249, .5);
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			border: 3px solid;
+		    margin: 10px;
+		    font-size: large;
+		}
+		    .img-infojachal{
+		    	width: 65%;
+		    	height:auto;
+		        border-radius: 5%;
+		    }
+		
+		
+ 	.text-infojachal1{
+	 		background-color: rgba(255, 259, 249, .5);
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: space-around;
+			border: 3px solid;
+		    margin: 10px;
+		    font-size: large;
+		}
+		    .img-infojachal{
+		    	width: 65%;
+		        border-radius: 5%;
+		    }
+		
+
+//TEXTO-HINFO-HISTORIA
+	.texto{
+		width: 35%;
+		text-align: center;
+
+	}
+
+
+
+
+
+// BOTON DESTINOS TRASLADOS-SERVICIOS
+ 
+	.botono {
+	 position: relative;
+	 font-size: 17px;
+	 text-transform: uppercase;
+	 text-decoration: none;
+	 padding: 1em 2.5em;
+	 display: inline-block;
+	 border-radius: 6em;
+	 transition: all .2s;
+	 border: none;
+	 font-family: inherit;
+	 font-weight: 500;
+	 color: black;
+	 background-color: rgba(240, 178, 122  , .5);
+
+	}
+
+	.botono{
+	 transform: translateY(-3px);
+	 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	 &:hover{
+
+	 }
+     }
+
+	.botono:active {
+	 transform: translateY(-1px);
+	 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+	}
+
+	.botono::after {
+	 content: "";
+	 display: inline-block;
+	 height: 100%;
+	 width: 100%;
+	 border-radius: 100px;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 z-index: -1;
+	 transition: all .4s;
+
+	}
+
+	.botono::after {
+	 background-color: #fff;
+
+	}
+
+	.botono:hover::after {
+	 transform: scaleX(1.4) scaleY(1.6);
+	 opacity: 0;
+
+	}
+
+
+//PAGINA CONTACTO HTML
+
+//FORMULARIO 
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 250px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #B0E0E6 solid;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  color: black;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: black;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 19px;
+  min-width: 5px;
+  color: rgba(205, 92, 92  , .6);
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+  color: black;
+  transform: translateY(-30px);
+}
+
+
+
+
+//titulos del formulario
+
+	.subtitulo3{
+		margin-left: 1%;
+		text-align: center;
+	}
+
+	//caja del formulario   
+	.formulario{
+		border: solid;
+		background-color:rgba(170, 150, 150, 0.50);
+		margin-left: 10px;
+	    margin-right: 10px;
+	    text-align: center;
+	    background: rgba(5, 7, 12, 0.35);
+	    .boton-form{
+	    	background-color: rgba(205, 92, 92  , .5);
+	    }
+	}
+
+
+	form{
+		margin-left: 15px;
+	} 
+
+ 
+ //Section Mapa
+
+    .mapa-ruta{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.mapa{
+	    border: 1px solid;
+	    width: 48%;
+	    overflow: hidden;
+
+	}
+
+    .info-ruta40{
+    	@include inforutaStyle (rgba(255, 259, 249, .5));
+    	width:50%;
+    }
+	
+
+
+
+
+

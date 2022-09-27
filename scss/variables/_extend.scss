@@ -1,0 +1,43 @@
+//extend
+%estiloH2{
+	background-color: rgba(135, 135, 251, .2);
+	text-align: center;
+	font-size: $textLg;
+	font-weight: 600;
+	border: 2px solid;
+}
+
+%estiloH3{
+	font-size: $textMd;
+}
+
+//mixin
+@mixin inforutaStyle ($colorFondo) {
+	display: flex; 
+	background-color: $colorFondo;
+	border: 1px solid;
+	flex-direction: row;
+	width: 48%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
